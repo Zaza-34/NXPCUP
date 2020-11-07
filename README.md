@@ -18,7 +18,7 @@ Le but de cette compétition est de programmer un petit véhicule autonome, de t
 # Présentation des résultats
 Le résultat de ce projet est un petit véhicule autonome capable de rester à l'intérieur du circuit tout en ajustant sa vitesse dans les virages:
 
-![](ImageNXP/Video.png)
+![](ImageNXP/Video.mov)
 
 L'utilisation du CPU est très faible grace à l'utilisation de FreeRTOS qui permet de n'utiliser le CPU que si une action est nécessaire.
 
