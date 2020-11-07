@@ -23,7 +23,7 @@ Le résultat de ce projet est un petit véhicule autonome capable de rester à l
 <a href="https://imgflip.com/gif/4lgtw9"><img src="https://i.imgflip.com/4lgtw9ia.gif" title=" voir vidéo"/></a>
 
 
-L'utilisation du CPU est très faible grace à l'utilisation de FreeRTOS qui permet de n'utiliser le CPU que si une action est nécessaire.
+L'utilisation du CPU est très faible grâce à l'utilisation de FreeRTOS qui permet d'utiliser le CPU que si une action est nécessaire.
 
 
 # Liaison des composants avec la carte FRDM-KL25Z
@@ -46,11 +46,13 @@ Le schéma ci-dessous résume mon explication :
 
 # Lecture des données à distance
 
-Afin de lire les données à distance nous avons créée un fichier MATLAB qui reçoit les données par lecture du port COM d'un appareil BLE.
-Vous avez un apperçu du résultat ici: 
+Afin de lire les données à distance, nous avons créé un fichier MATLAB qui reçoit les données par lecture du port COM d'un appareil BLE.
+Vous avez un aperçu du résultat ici : 
+
 
 ![](ImageNXP/GUI.png)
 
-Pour les graphique "speed" vous pouvez voir en rouge la vitesse désirée et en bleu la vitesse réelle, vous pouvez donc remarquer que l'on peut utiliser ces données afin d'améliorer notre PID.
+
+Pour les graphiques "speed", vous pouvez voir en rouge la vitesse désirée et en bleu la vitesse réelle, vous pouvez donc remarquer que l'on peut utiliser ces données afin d'améliorer notre PID.
 
 # MERCI d'avoir visité mon Git
