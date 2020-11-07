@@ -38,7 +38,7 @@ Enfin, le composant le plus important, le microcontrôleur FRDM-KL25Z permet de 
 
 
 Le schéma ci-dessous résume mon explication :
-![](ImageCDM/ZMP.png)
+![](ImageNXP/Schema.png)
 
 
 
