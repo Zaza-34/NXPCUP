@@ -22,7 +22,7 @@ Le résultat de ce projet est un petit véhicule autonome capable de rester à l
 
 
 L'utilisation du CPU est très faible grace à l'utilisation de FreeRTOS qui permet de n'utiliser le CPU que si une action est nécessaire.
-<iframe src="https://giphy.com/embed/v0xHpuxeFgpzZnsp5g" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/v0xHpuxeFgpzZnsp5g">via GIPHY</a></p>
+
 
 # Liaison des composants avec la carte FRDM-KL25Z
 
@@ -42,6 +42,9 @@ Enfin, le composant le plus important, le microcontrôleur FRDM-KL25Z permet de 
 Le schéma ci-dessous résume mon explication :
 ![](ImageNXP/Schema.png)
 
+# Lecture des données à distance
 
-
+Afin de lire les données à distance nous avons créée un fichier MATLAB qui reçoit les données par lecture du port COM d'un appareil BLE.
+Vous avez un apperçu du résultat ici: 
+![](ImageNXP/GUI.png)
 
