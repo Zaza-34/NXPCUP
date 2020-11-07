@@ -8,6 +8,8 @@ La NXP Cup est une compétition destinée aux étudiants en informatique embarqu
 Le but de cette compétition est de programmer un petit véhicule autonome, de telles sortes qu’il fasse le tour d’un circuit le plus vite possible. Ce circuit, dont le tracé n’est pas connu à l’avance, est composé de lignes droites, de courbes et de bosses. Ces éléments sont blancs et comportent des bandes noires sur les côtés, ce qui permet à la caméra embarquée de visualiser le parcours.
 ![](ImageNXP/circuit.png)
 
+C'est un travail que j'ai réalisé avec deux camarades de classe.
+
 
 # Matériel nescessaire
 - Kit Landzo Alamak : https://nxp.gitbook.io/nxp-cup/developer-guide/landzo-car-model/kit-contents/model-alamak
@@ -46,5 +48,9 @@ Le schéma ci-dessous résume mon explication :
 
 Afin de lire les données à distance nous avons créée un fichier MATLAB qui reçoit les données par lecture du port COM d'un appareil BLE.
 Vous avez un apperçu du résultat ici: 
+
 ![](ImageNXP/GUI.png)
 
+Pour les graphique "speed" vous pouvez voir en rouge la vitesse désirée et en bleu la vitesse réelle, vous pouvez donc remarquer que l'on peut utiliser ces données afin d'améliorer notre PID.
+
+# MERCI d'avoir visité mon Git
