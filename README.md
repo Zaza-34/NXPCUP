@@ -22,6 +22,7 @@ Le résultat de ce projet est un petit véhicule autonome capable de rester à l
 
 
 L'utilisation du CPU est très faible grace à l'utilisation de FreeRTOS qui permet de n'utiliser le CPU que si une action est nécessaire.
+<iframe src="https://giphy.com/embed/v0xHpuxeFgpzZnsp5g" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/v0xHpuxeFgpzZnsp5g">via GIPHY</a></p>
 
 # Liaison des composants avec la carte FRDM-KL25Z
 
