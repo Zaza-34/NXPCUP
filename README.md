@@ -6,7 +6,7 @@ Ce projet est difficilement reproductible (en raison d'une grosse partie hardwar
 # Contexte
 La NXP Cup est une compétition destinée aux étudiants en informatique embarquée.
 Le but de cette compétition est de programmer un petit véhicule autonome, de telles sortes qu’il fasse le tour d’un circuit le plus vite possible. Ce circuit, dont le tracé n’est pas connu à l’avance, est composé de lignes droites, de courbes et de bosses. Ces éléments sont blancs et comportent des bandes noires sur les côtés, ce qui permet à la caméra embarquée de visualiser le parcours.
-(IMAGE CIRCUIT)
+![](ImageNXP/circuit.png)
 
 
 # Matériel nescessaire
@@ -18,7 +18,7 @@ Le but de cette compétition est de programmer un petit véhicule autonome, de t
 # Présentation des résultats
 Le résultat de ce projet est un petit véhicule autonome capable de rester à l'intérieur du circuit tout en ajustant sa vitesse dans les virages:
 
-(Mettre vidéo)
+![](ImageNXP/Video.png)
 
 L'utilisation du CPU est très faible grace à l'utilisation de FreeRTOS qui permet de n'utiliser le CPU que si une action est nécessaire.
 
