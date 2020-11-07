@@ -20,7 +20,7 @@ C'est un travail que j'ai réalisé avec deux camarades de classe.
 # Présentation des résultats
 Le résultat de ce projet est un petit véhicule autonome capable de rester à l'intérieur du circuit tout en ajustant sa vitesse dans les virages:
 
-<a href="https://imgflip.com/gif/4lgtw9"><img src="https://i.imgflip.com/4lgtw9ia.gif" title="made at Imgflip"/></a>
+<a href="https://imgflip.com/gif/4lgtw9"><img src="https://i.imgflip.com/4lgtw9ia.gif" title=" voir vidéo"/></a>
 
 
 L'utilisation du CPU est très faible grace à l'utilisation de FreeRTOS qui permet de n'utiliser le CPU que si une action est nécessaire.
